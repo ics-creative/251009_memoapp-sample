@@ -1,5 +1,5 @@
-import { Controller } from '@nestjs/common';
-import { MemoService } from './memo.service';
+import { Controller } from "@nestjs/common";
+import { MemoService } from "./memo.service";
 
 /**
  * メモのコントローラー

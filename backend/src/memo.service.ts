@@ -1,13 +1,11 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable } from "@nestjs/common";
 
 /**
  * メモのサービスクラス
  */
 @Injectable()
 export class MemoService {
-  constructor(
-    // TODO: リポジトリを作成
-  ) {}
+  constructor() {} // TODO: リポジトリを作成
 
   /**
    * TODO: メモを全件取得する
