@@ -36,7 +36,7 @@ function App() {
       <MemoList
         onSelectMemo={handleSelectMemo}
         onCreateNew={handleCreateNew}
-        refreshTrigger={refreshTrigger}
+        key={refreshTrigger}
       />
       <MemoEditor
         selectedMemo={selectedMemo}
